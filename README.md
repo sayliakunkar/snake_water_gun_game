@@ -1,31 +1,56 @@
-🐍 Snake, Water, Gun Game
-📌 About the Project
-This is a simple command-line game built using Python. The user plays Snake, Water, or Gun against the computer, which randomly selects its choice.
-✨ Features
-- Play Snake, Water, or Gun against the computer.
-- Computer choice is generated randomly.
-- Displays both the user's and computer's choices.
-- Shows whether the user wins, loses, or draws.
-- Checks for invalid user input.
-🛠️ Technologies Used
+# 🐍 Snake, Water, Gun Game
+
+A simple Python game where you play Snake, Water, or Gun against the computer.
+
+## 📌 About the Project
+
+This project is built using Python. The computer randomly chooses Snake, Water, or Gun, and the program decides whether you win, lose, or draw.
+
+## ✨ Features
+
+- Play against the computer.
+- Random computer choices.
+- Displays the result of each round.
+- Handles invalid user input.
+- Simple and beginner-friendly project.
+
+## 🛠️ Technologies Used
+
 - Python
-- random module
-🎮 Game Rules
-- Snake beats Water.
-- Water beats Gun.
-- Gun beats Snake.
-- If both choose the same option, the game is a draw.
-🚀 How to Run
-1. Install Python on your computer.
-2. Save the game code in a file named snake_water_gun.py.
-3. Open a terminal or command prompt in the project folder.
-4. Run this command:
+- Random Module
+
+## 🎮 Game Rules
+
+| Choice | Beats |
+|---|---|
+| 🐍 Snake | 💧 Water |
+| 💧 Water | 🔫 Gun |
+| 🔫 Gun | 🐍 Snake |
+
+If both the player and computer choose the same option, the result is a draw.
+
+## 🚀 How to Run
+
+**Step 1:** Install Python.
+
+**Step 2:** Save the code as `snake_water_gun.py`.
+
+**Step 3:** Open a terminal in the project folder.
+
+**Step 4:** Run the following command:
+
+```bash
 python snake_water_gun.py
-💡 What I Learned
-- Using Python's random module.
-- Writing functions and using parameters.
-- Using if, elif, and else conditions.
-- Taking user input and validating choices.
-- Using return values to determine the game result.
-👩‍💻 Author
-Sayli Akunkar
+```
+
+## 📚 What I Learned
+
+- Using Python functions.
+- Working with conditional statements.
+- Generating random choices.
+- Taking user input.
+- Using return values to determine results.
+
+## 👩‍💻 Author
+
+**Sayli Akunkar**
